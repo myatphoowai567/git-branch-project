@@ -4,8 +4,7 @@ const app = express();
 app.get("/", (req, res) => {
     res.send("Home Page");
 });
-
-// NEW FEATURE (LOGIN)
+// login feature branch test
 app.get("/login", (req, res) => {
     res.send("Login Page");
 });
